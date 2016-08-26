@@ -32,6 +32,7 @@ libc_bionic_src_files_arm += \
 # Use kryo versions of memcpy
 libc_bionic_src_files_arm += \
     arch-arm/kryo/bionic/memcpy.S \
+    arch-arm/kryo/bionic/memmove.S \
 
 # Use Denver version of memmove
 libc_bionic_src_files_arm += \
